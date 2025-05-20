@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Section } from '@/components/Section';
-import { Code2, Gamepad2, Users, Sparkles, Target, Briefcase } from 'lucide-react';
+import { Code2, Gamepad2, Users, Sparkles, Target, Briefcase, Mail } from 'lucide-react';
 
 const services = [
   {
