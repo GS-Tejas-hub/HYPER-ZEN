@@ -83,6 +83,17 @@ const teamMembers: TeamMember[] = [
     bio: 'Grace crafts compelling narratives and strategies that elevate our clients\' digital presence. She is adept at identifying market opportunities and driving growth.',
     linkedinUrl: '#',
   },
+  {
+    id: '8',
+    name: 'Henry Garcia',
+    role: 'AI/ML Engineer',
+    imageUrl: 'https://placehold.co/200x200.png',
+    dataAiHint: 'man engineer futuristic',
+    expertise: ['Python', 'TensorFlow', 'PyTorch', 'NLP', 'Computer Vision'],
+    bio: 'Henry is passionate about leveraging artificial intelligence to solve complex problems. He develops innovative AI solutions and integrates machine learning models into our projects.',
+    linkedinUrl: '#',
+    githubUrl: '#',
+  },
 ];
 
 export default function TeamPage() {
