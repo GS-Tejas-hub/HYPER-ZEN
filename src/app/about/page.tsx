@@ -33,9 +33,9 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="https://placehold.co/600x600.png"
-              alt="HyperZen Team"
-              data-ai-hint="team collaboration office"
+              src="/our-journey-image.jpg" 
+              alt="HyperZen team collaborating around a large monitor displaying a project dashboard"
+              data-ai-hint="team meeting project"
               fill
               style={{objectFit: 'cover'}}
               className="transform hover:scale-105 transition-transform duration-500"
