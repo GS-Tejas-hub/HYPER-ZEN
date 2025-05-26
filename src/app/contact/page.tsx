@@ -1,3 +1,4 @@
+
 import { Section } from '@/components/Section';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { Mail, Phone, MapPin } from 'lucide-react';
@@ -55,7 +56,7 @@ export default function ContactPage() {
               <div>
                 <h4 className="text-lg font-medium text-foreground">Our Office</h4>
                 <p className="text-muted-foreground">
-                  123 Innovation Drive<br />Tech City, TX 75001
+                  S Residency<br />Harohalli, 562112
                 </p>
                 <p className="text-sm text-muted-foreground">Meetings by appointment only.</p>
               </div>
@@ -72,3 +73,4 @@ export default function ContactPage() {
     </Section>
   );
 }
+
