@@ -1,8 +1,9 @@
+
 "use client";
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Code2, Gamepad2, Users, Info, Mail } from 'lucide-react';
+import { Menu, X, Code2, Gamepad2, Users, Info, Mail } from 'lucide-react'; // Gamepad2 can be removed if not used elsewhere
 import { useState, useEffect } from 'react';
 import { Logo } from '@/components/shared/Logo';
 import { Button } from '@/components/ui/button';
@@ -12,13 +13,13 @@ import { cn } from '@/lib/utils';
 type NavItem = {
   href: string;
   label: string;
-  icon: React.ElementType;
+  icon?: React.ElementType; // Icon is now optional
 };
 
 const navItems: NavItem[] = [
-  { href: '/', label: 'Home', icon: Code2 }, // Using Code2 as a generic home icon for a dev agency
+  { href: '/', label: 'Home', icon: Code2 },
   { href: '/about', label: 'About Us', icon: Info },
-  { href: '/portfolio', label: 'Portfolio', icon: Gamepad2 }, // Using Gamepad2 to represent both web/game projects
+  { href: '/portfolio', label: 'Portfolio' }, // Icon removed for Portfolio
   { href: '/team', label: 'Team', icon: Users },
   { href: '/contact', label: 'Contact Us', icon: Mail },
 ];
@@ -56,7 +57,7 @@ export function Header() {
               )}
             >
               <Link href={item.href}>
-                <item.icon className="mr-2 h-4 w-4" />
+                {item.icon && <item.icon className="mr-2 h-4 w-4" />}
                 {item.label}
               </Link>
             </Button>
@@ -91,7 +92,7 @@ export function Header() {
                         pathname === item.href ? 'bg-primary/10 text-primary' : 'text-foreground'
                       )}
                     >
-                      <item.icon className="mr-3 h-5 w-5" />
+                      {item.icon && <item.icon className="mr-3 h-5 w-5" />}
                       {item.label}
                     </Link>
                   </SheetClose>

@@ -1,12 +1,13 @@
+
 import Image from 'next/image';
 import { Section } from '@/components/Section';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Target, Gem, Users, Handshake, Lightbulb, Code2, Gamepad2 } from 'lucide-react';
+import { Target, Gem, Users, Handshake, Lightbulb, Code2, Gamepad2, AppWindow } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About HyperZen | Our Mission, Values, and Expertise',
-  description: 'Learn about HyperZen, our mission to craft exceptional digital solutions, our core values, and the expertise that drives our web and digital solution projects.',
+  description: 'Learn about HyperZen, our mission to craft exceptional digital solutions, our core values, and the expertise that drives our web, app, and game development projects.',
 };
 
 const values = [
@@ -27,7 +28,7 @@ export default function AboutPage() {
               Founded by a group of passionate developers and designers, HyperZen was born from a shared vision: to build digital products that are not only functional but also beautiful and engaging. We saw a need for a development partner that truly understands the intricacies of crafting exceptional digital solutions, and can seamlessly blend technical prowess with creative flair.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Today, we are a thriving studio dedicated to helping businesses and creators bring their ambitious ideas to life. We pride ourselves on our commitment to quality, innovation, and client satisfaction.
+              Today, we are a thriving studio dedicated to helping businesses and creators bring their ambitious ideas to life. We pride ourselves on our commitment to quality, innovation, and client satisfaction in web, app, and game development.
             </p>
           </div>
           <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
@@ -72,13 +73,21 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Our Expertise" subtitle="Masters of the Craft" className="bg-muted/30">
-        <div className="grid md:grid-cols-2 gap-8 items-start">
+        <div className="grid md:grid-cols-3 gap-8 items-start">
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4 flex items-center">
               <Code2 className="w-8 h-8 text-primary mr-3" /> Web Development
             </h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              We specialize in creating dynamic, responsive, and scalable web solutions. Our expertise spans front-end technologies like React and Next.js, back-end development with Node.js and Python, and database management. We build everything from custom business applications to engaging e-commerce platforms.
+              We specialize in creating dynamic, responsive, and scalable web solutions. Our expertise spans front-end technologies like React and Next.js, back-end development, and database management. We build everything from custom business applications to engaging e-commerce platforms.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-foreground mb-4 flex items-center">
+              <AppWindow className="w-8 h-8 text-primary mr-3" /> App Development
+            </h3>
+            <p className="text-muted-foreground mb-4 leading-relaxed">
+              We create engaging and high-performance mobile and desktop applications. From native iOS and Android apps to cross-platform solutions with React Native or Flutter, we transform your app ideas into functional and user-friendly products.
             </p>
           </div>
           <div>
@@ -86,7 +95,7 @@ export default function AboutPage() {
               <Gamepad2 className="w-8 h-8 text-primary mr-3" /> Game Development
             </h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              Our game development team is passionate about creating immersive and entertaining experiences. We work with industry-standard engines like Unity and Unreal Engine to develop games for PC, console, and mobile. From 2D platformers to complex 3D simulations, we handle all aspects of game creation.
+              Our game development team is passionate about creating immersive and entertaining experiences. We work with industry-standard engines like Unity and Unreal Engine to develop games for PC, console, and mobile. From 2D platformers to complex 3D simulations.
             </p>
           </div>
         </div>

@@ -1,9 +1,10 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Section } from '@/components/Section';
-import { Code2, Gamepad2, Users, Sparkles, Target, Mail } from 'lucide-react';
+import { Code2, Gamepad2, Users, Sparkles, Target, Mail, AppWindow } from 'lucide-react';
 
 const services = [
   {
@@ -12,6 +13,13 @@ const services = [
     description: "Crafting responsive, high-performance websites and web applications tailored to your business needs. From sleek portfolios to complex e-commerce platforms.",
     link: "/portfolio#web",
     dataAiHint: "web development code"
+  },
+  {
+    icon: AppWindow,
+    title: "App Development",
+    description: "Building intuitive mobile and desktop applications for seamless user experiences. From native apps to cross-platform solutions.",
+    link: "/portfolio",
+    dataAiHint: "mobile app interface"
   },
   {
     icon: Gamepad2,
@@ -50,7 +58,7 @@ export default function HomePage() {
               Elevate Your <span className="text-primary">Digital Presence</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground sm:text-xl md:text-2xl max-w-2xl">
-              HyperZen is your expert partner in crafting cutting-edge web experiences and elevating your digital presence. We transform ideas into reality.
+              HyperZen is your expert partner in crafting cutting-edge web & app experiences and elevating your digital presence. We transform ideas into reality.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild className="shadow-lg hover:shadow-primary/50 transition-shadow">
@@ -77,7 +85,7 @@ export default function HomePage() {
       </Section>
 
       <Section title="Our Expertise" subtitle="What We Do">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {services.map((service) => (
             <Card key={service.title} className="hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader className="items-center text-center">

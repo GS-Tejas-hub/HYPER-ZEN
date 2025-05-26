@@ -1,3 +1,4 @@
+
 import { Section } from '@/components/Section';
 import { ProjectCard, type Project } from '@/components/portfolio/ProjectCard';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -5,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Portfolio | HyperZen Projects',
-  description: 'Explore the diverse portfolio of HyperZen, showcasing our expertise in innovative web development and captivating game development projects.',
+  description: 'Explore the diverse portfolio of HyperZen, showcasing our expertise in innovative web development, app development, and captivating game development projects.',
 };
 
 const projects: Project[] = [
@@ -16,7 +17,7 @@ const projects: Project[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'website interface learning',
     category: 'Web Development',
-    tags: ['Next.js', 'React', 'Supabase', 'Tailwind CSS'],
+    tags: ['Next.js', 'React', 'Supabase', 'Tailwind CSS', 'App Development'],
     liveUrl: '#',
     caseStudyUrl: '/portfolio/odyssey-online',
   },
@@ -66,8 +67,8 @@ const projects: Project[] = [
     description: 'A mobile puzzle game designed to promote relaxation and mindfulness through calming visuals and engaging challenges.',
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'mobile game puzzle',
-    category: 'Game Development',
-    tags: ['Flutter', 'Dart', 'Mobile Game', 'Firebase'],
+    category: 'Game Development', // Kept as Game Dev, but tagged as App Dev
+    tags: ['Flutter', 'Dart', 'Mobile Game', 'Firebase', 'App Development'],
   },
 ];
 
