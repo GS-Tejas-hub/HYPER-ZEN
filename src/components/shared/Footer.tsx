@@ -35,7 +35,7 @@ export function Footer() {
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              contact@hyperzen.dev
+              hyperzen360@gmail.com
             </p>
           </div>
         </div>

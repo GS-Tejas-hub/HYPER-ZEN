@@ -30,8 +30,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="text-lg font-medium text-foreground">Email Us</h4>
-                <a href="mailto:contact@hyperzen.dev" className="text-primary hover:underline">
-                  contact@hyperzen.dev
+                <a href="mailto:hyperzen360@gmail.com" className="text-primary hover:underline">
+                  hyperzen360@gmail.com
                 </a>
                 <p className="text-sm text-muted-foreground">We typically respond within 24 hours.</p>
               </div>
