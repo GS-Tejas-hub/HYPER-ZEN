@@ -1,6 +1,7 @@
+
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState, useFormStatus } from 'react'; // Changed useFormState from react-dom to useActionState from react
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -54,7 +55,7 @@ function SubmitButton() {
 
 export function ContactForm() {
   const { toast } = useToast();
-  const [state, formAction] = useFormState(submitContactForm, initialState);
+  const [state, formAction] = useActionState(submitContactForm, initialState); // Changed to useActionState
 
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactFormSchema),
