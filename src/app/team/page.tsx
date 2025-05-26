@@ -17,7 +17,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'man smiling professional', // Updated hint slightly for a male name
     expertise: ['React', 'Next.js', 'Node.js', 'System Architecture'],
     bio: 'Manish is a seasoned web architect with over 10 years of experience building scalable and robust web applications. He leads our web development efforts with a passion for clean code and innovative solutions.', // Updated bio pronoun
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
   {
@@ -28,7 +28,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'man creative glasses',
     expertise: ['Unity', 'Unreal Engine', 'Gameplay Mechanics', 'Level Design'],
     bio: 'Balasubramanyam brings virtual worlds to life. With a knack for engaging gameplay and immersive storytelling, he spearheads our game design projects, ensuring every game is an adventure.',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/balasubramanyam-bs-7325a02ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
     id: '3',
@@ -38,7 +38,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'person designer thoughtful',
     expertise: ['User Research', 'Wireframing', 'Prototyping', 'Visual Design'],
     bio: 'Tejas is dedicated to crafting intuitive and beautiful user experiences. He champions a user-centered design process to create products that are both functional and delightful.',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/g-s-tejas-10580929a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
   {
@@ -81,7 +81,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'person marketing professional',
     expertise: ['Digital Marketing', 'SEO', 'Content Strategy', 'Brand Development'],
     bio: 'Deeraj crafts compelling narratives and strategies that elevate our clients\' digital presence. He is adept at identifying market opportunities and driving growth.',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/kanduri-hari-hara-deeraj-b795a6312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
     id: '8',
@@ -91,7 +91,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'woman engineer futuristic',
     expertise: ['Python', 'TensorFlow', 'PyTorch', 'NLP', 'Computer Vision'],
     bio: 'Spurthika is passionate about leveraging artificial intelligence to solve complex problems. She develops innovative AI solutions and integrates machine learning models into our projects.',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/kummetha-spoorthika-218310326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
 ];
