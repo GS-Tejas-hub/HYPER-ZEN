@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     }
   }
   return {
-    title: `${caseStudy.title} | DevForge Studio Case Study`,
+    title: `${caseStudy.title} | HyperZen Case Study`,
     description: caseStudy.subtitle,
   }
 }

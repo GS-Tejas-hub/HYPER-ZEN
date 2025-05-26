@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Section } from '@/components/Section';
-import { Code2, Gamepad2, Users, Sparkles, Target, Briefcase, Mail } from 'lucide-react';
+import { Code2, Gamepad2, Users, Sparkles, Target, Mail } from 'lucide-react';
 
 const services = [
   {
@@ -47,10 +47,10 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-              Forge Your <span className="text-primary">Digital Future</span>
+              Elevate Your <span className="text-primary">Digital Presence</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground sm:text-xl md:text-2xl max-w-2xl">
-              DevForge Studio is your expert partner in crafting cutting-edge web experiences and captivating games. We transform ideas into reality.
+              HyperZen is your expert partner in crafting cutting-edge web experiences and elevating your digital presence. We transform ideas into reality.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild className="shadow-lg hover:shadow-primary/50 transition-shadow">
@@ -97,7 +97,7 @@ export default function HomePage() {
         </div>
       </Section>
       
-      <Section title="Why Choose DevForge?" subtitle="Our Commitment" className="bg-muted/30">
+      <Section title="Why Choose HyperZen?" subtitle="Our Commitment" className="bg-muted/30">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUs.map((item) => (
              <Card key={item.title} className="text-center border-0 shadow-lg bg-card">

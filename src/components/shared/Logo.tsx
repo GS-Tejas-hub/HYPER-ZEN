@@ -34,7 +34,7 @@ export function Logo() {
     <Link href="/" className="flex items-center space-x-2 group">
       <GearIcon className="h-8 w-8 text-primary group-hover:text-accent transition-colors duration-300" />
       <span className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
-        DevForge <span className="text-primary group-hover:text-accent transition-colors duration-300">Studio</span>
+        Hyper<span className="text-primary group-hover:text-accent transition-colors duration-300">Zen</span>
       </span>
     </Link>
   );

@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact DevForge Studio | Get In Touch',
-  description: 'Contact DevForge Studio for your web and game development needs. Reach out to us via our contact form, email, or phone. Let\'s discuss your project!',
+  title: 'Contact HyperZen | Get In Touch',
+  description: 'Contact HyperZen for your web and digital solution needs. Reach out to us via our contact form, email, or phone. Let\'s discuss your project!',
 };
 
 export default function ContactPage() {
@@ -30,8 +30,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="text-lg font-medium text-foreground">Email Us</h4>
-                <a href="mailto:contact@devforge.studio" className="text-primary hover:underline">
-                  contact@devforge.studio
+                <a href="mailto:contact@hyperzen.dev" className="text-primary hover:underline">
+                  contact@hyperzen.dev
                 </a>
                 <p className="text-sm text-muted-foreground">We typically respond within 24 hours.</p>
               </div>

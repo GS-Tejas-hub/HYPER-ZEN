@@ -4,8 +4,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Portfolio | DevForge Studio Projects',
-  description: 'Explore the diverse portfolio of DevForge Studio, showcasing our expertise in innovative web development and captivating game development projects.',
+  title: 'Portfolio | HyperZen Projects',
+  description: 'Explore the diverse portfolio of HyperZen, showcasing our expertise in innovative web development and captivating game development projects.',
 };
 
 const projects: Project[] = [

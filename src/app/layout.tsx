@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({ // Use Geist_Mono directly
 });
 
 export const metadata: Metadata = {
-  title: 'DevForge Studio - Web & Game Development Experts',
-  description: 'DevForge Studio specializes in innovative web development and immersive game development. Let us forge your digital future.',
+  title: 'HyperZen - Elevating Your Digital Presence',
+  description: 'HyperZen specializes in innovative web solutions and digital experiences. Let us elevate your presence.',
 };
 
 export default function RootLayout({

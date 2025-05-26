@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-4 text-sm text-muted-foreground">
-              Crafting digital experiences with precision and passion. Experts in web and game development.
+              Elevating digital experiences with clarity and purpose. Experts in web solutions.
             </p>
           </div>
           <div>
@@ -35,13 +35,13 @@ export function Footer() {
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              contact@devforge.studio
+              contact@hyperzen.dev
             </p>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} DevForge Studio. All rights reserved.
+            &copy; {new Date().getFullYear()} HyperZen. All rights reserved.
           </p>
         </div>
       </div>

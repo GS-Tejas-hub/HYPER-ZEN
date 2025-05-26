@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import { Section } from '@/components/Section';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Target, Gem, Users, Handshake, Lightbulb } from 'lucide-react';
+import { Target, Gem, Users, Handshake, Lightbulb, Code2, Gamepad2 } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About DevForge Studio | Our Mission, Values, and Expertise',
-  description: 'Learn about DevForge Studio, our mission to craft exceptional digital solutions, our core values, and the expertise that drives our web and game development projects.',
+  title: 'About HyperZen | Our Mission, Values, and Expertise',
+  description: 'Learn about HyperZen, our mission to craft exceptional digital solutions, our core values, and the expertise that drives our web and digital solution projects.',
 };
 
 const values = [
@@ -19,12 +19,12 @@ const values = [
 export default function AboutPage() {
   return (
     <>
-      <Section title="About DevForge Studio" subtitle="Who We Are">
+      <Section title="About HyperZen" subtitle="Who We Are">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4">Our Journey</h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              Founded by a group of passionate developers and designers, DevForge Studio was born from a shared vision: to build digital products that are not only functional but also beautiful and engaging. We saw a need for a development partner that truly understands the intricacies of both web and game development, and can seamlessly blend technical prowess with creative flair.
+              Founded by a group of passionate developers and designers, HyperZen was born from a shared vision: to build digital products that are not only functional but also beautiful and engaging. We saw a need for a development partner that truly understands the intricacies of crafting exceptional digital solutions, and can seamlessly blend technical prowess with creative flair.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Today, we are a thriving studio dedicated to helping businesses and creators bring their ambitious ideas to life. We pride ourselves on our commitment to quality, innovation, and client satisfaction.
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
             <Image
               src="https://placehold.co/600x600.png"
-              alt="DevForge Studio Team"
+              alt="HyperZen Team"
               data-ai-hint="team collaboration office"
               fill
               style={{objectFit: 'cover'}}
@@ -48,7 +48,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto text-center">
           <Target className="w-16 h-16 text-primary mx-auto mb-6" />
           <p className="text-xl md:text-2xl text-foreground leading-relaxed">
-            "To empower our clients by forging innovative and high-quality digital solutions that drive growth, engagement, and success in an ever-evolving technological landscape."
+            "To empower our clients by crafting innovative and high-quality digital solutions that drive growth, engagement, and success in an ever-evolving technological landscape."
           </p>
         </div>
       </Section>

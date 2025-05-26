@@ -3,8 +3,8 @@ import { TeamMemberCard, type TeamMember } from '@/components/team/TeamMemberCar
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Our Team | DevForge Studio Experts',
-  description: 'Meet the talented team behind DevForge Studio. Our developers, designers, and strategists are passionate about creating exceptional digital experiences.',
+  title: 'Our Team | HyperZen Experts',
+  description: 'Meet the talented team behind HyperZen. Our developers, designers, and strategists are passionate about creating exceptional digital experiences.',
 };
 
 const teamMembers: TeamMember[] = [
@@ -55,7 +55,7 @@ const teamMembers: TeamMember[] = [
 
 export default function TeamPage() {
   return (
-    <Section title="Meet Our Team" subtitle="The Minds Behind DevForge">
+    <Section title="Meet Our Team" subtitle="The Minds Behind HyperZen">
       <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
         We are a collective of passionate creators, thinkers, and innovators dedicated to pushing the boundaries of digital craftsmanship.
       </p>
