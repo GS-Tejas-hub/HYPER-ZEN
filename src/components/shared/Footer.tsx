@@ -1,6 +1,6 @@
 
 import { Logo } from '@/components/shared/Logo';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Linkedin, Twitter } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -17,7 +17,6 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">About Us</a></li>
-              {/* Portfolio link removed */}
               <li><a href="/team" className="text-sm text-muted-foreground hover:text-primary transition-colors">Our Team</a></li>
               <li><a href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
             </ul>
@@ -25,9 +24,6 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" aria-label="Github" className="text-muted-foreground hover:text-primary transition-colors">
-                <Github className="h-6 w-6" />
-              </a>
               <a href="https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
