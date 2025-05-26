@@ -16,15 +16,9 @@ export function Logo() {
         height={40} // Example height, adjust to your logo's aspect ratio
         className="group-hover:opacity-90 transition-opacity duration-300"
       />
-      {/* 
-        If your logo image already includes the text "HyperZen", you can remove the span below.
-        If your logo is just a symbol, you might want to keep the text.
-      */}
-      {/*
       <span className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
         Hyper<span className="text-primary group-hover:text-accent transition-colors duration-300">Zen</span>
       </span>
-      */}
     </Link>
   );
 }
