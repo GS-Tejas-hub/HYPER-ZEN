@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Code2, Gamepad2, Users, Info, Mail } from 'lucide-react'; // Gamepad2 can be removed if not used elsewhere
+import { Menu, X, Code2, Users, Info, Mail, AppWindow, Gamepad2 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Logo } from '@/components/shared/Logo';
 import { Button } from '@/components/ui/button';
@@ -13,13 +13,12 @@ import { cn } from '@/lib/utils';
 type NavItem = {
   href: string;
   label: string;
-  icon?: React.ElementType; // Icon is now optional
+  icon?: React.ElementType; 
 };
 
 const navItems: NavItem[] = [
   { href: '/', label: 'Home', icon: Code2 },
   { href: '/about', label: 'About Us', icon: Info },
-  { href: '/portfolio', label: 'Portfolio' }, // Icon removed for Portfolio
   { href: '/team', label: 'Team', icon: Users },
   { href: '/contact', label: 'Contact Us', icon: Mail },
 ];

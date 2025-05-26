@@ -11,21 +11,21 @@ const services = [
     icon: Code2,
     title: "Web Development",
     description: "Crafting responsive, high-performance websites and web applications tailored to your business needs. From sleek portfolios to complex e-commerce platforms.",
-    link: "/portfolio#web",
+    link: "/about", // Changed from /portfolio#web
     dataAiHint: "web development code"
   },
   {
     icon: AppWindow,
     title: "App Development",
     description: "Building intuitive mobile and desktop applications for seamless user experiences. From native apps to cross-platform solutions.",
-    link: "/portfolio",
+    link: "/about", // Changed from /portfolio
     dataAiHint: "mobile app interface"
   },
   {
     icon: Gamepad2,
     title: "Game Development",
     description: "Building immersive and engaging games across multiple platforms. We bring your virtual worlds to life with cutting-edge technology and creative design.",
-    link: "/portfolio#game",
+    link: "/about", // Changed from /portfolio#game
     dataAiHint: "game development controller"
   }
 ];
@@ -64,9 +64,7 @@ export default function HomePage() {
               <Button size="lg" asChild className="shadow-lg hover:shadow-primary/50 transition-shadow">
                 <Link href="/contact">Get a Quote</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="shadow-sm hover:shadow-md transition-shadow">
-                <Link href="/portfolio">Our Work</Link>
-              </Button>
+              {/* "Our Work" button removed */}
             </div>
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">

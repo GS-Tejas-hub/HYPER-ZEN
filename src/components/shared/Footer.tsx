@@ -1,3 +1,4 @@
+
 import { Logo } from '@/components/shared/Logo';
 import { Github, Linkedin, Twitter } from 'lucide-react';
 
@@ -16,7 +17,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="/portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">Portfolio</a></li>
+              {/* Portfolio link removed */}
               <li><a href="/team" className="text-sm text-muted-foreground hover:text-primary transition-colors">Our Team</a></li>
               <li><a href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
             </ul>
