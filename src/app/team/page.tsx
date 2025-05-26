@@ -49,7 +49,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'man programmer focused',
     expertise: ['Python', 'Django', 'Vue.js', 'DevOps'],
     bio: 'Achinth is a versatile developer comfortable across the full stack. He enjoys tackling complex challenges and is always eager to learn new technologies to enhance our projects.',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/achinth522000?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
   {
