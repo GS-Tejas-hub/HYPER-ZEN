@@ -6,21 +6,21 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center space-x-2 group">
       {/* 
-        Ensure your logo image (hyperzen-logo.jpg) is in the 'public' folder.
+        Ensure your logo image (e.g., logo.png) is in the 'public' folder.
+        Adjust src, alt, width, and height attributes as needed.
       */}
       <Image
-        src="/hyperzen-logo.jpg" // Using the new logo image
+        src="/logo.png" // Defaulting to logo.png, ensure this file exists in /public
         alt="HyperZen Logo"
-        width={120} // Adjusted width for the new logo, can be fine-tuned
-        height={40} // Adjusted height for the new logo, can be fine-tuned
+        width={40} // Example width, adjust to your logo's aspect ratio
+        height={40} // Example height, adjust to your logo's aspect ratio
         className="group-hover:opacity-90 transition-opacity duration-300"
-        style={{ objectFit: 'contain' }} // Ensure the logo scales nicely
       />
-      {/* The text "HyperZen" is part of the image, so we can remove the span below if preferred,
-          or keep it if the image is just the "HZ" symbol.
-          For now, I'll assume the provided image is the complete logo including the "HYPERZEN" text.
-      */}
       {/* 
+        If your logo image already includes the text "HyperZen", you can remove the span below.
+        If your logo is just a symbol, you might want to keep the text.
+      */}
+      {/*
       <span className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
         Hyper<span className="text-primary group-hover:text-accent transition-colors duration-300">Zen</span>
       </span>
