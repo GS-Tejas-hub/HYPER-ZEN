@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: 'Alice Thompson',
+    name: 'Manish R V',
     role: 'Lead Web Developer',
     imageUrl: 'https://placehold.co/200x200.png',
-    dataAiHint: 'woman smiling professional',
+    dataAiHint: 'man smiling professional', // Updated hint slightly for a male name
     expertise: ['React', 'Next.js', 'Node.js', 'System Architecture'],
-    bio: 'Alice is a seasoned web architect with over 10 years of experience building scalable and robust web applications. She leads our web development efforts with a passion for clean code and innovative solutions.',
+    bio: 'Manish is a seasoned web architect with over 10 years of experience building scalable and robust web applications. He leads our web development efforts with a passion for clean code and innovative solutions.', // Updated bio pronoun
     linkedinUrl: '#',
     githubUrl: '#',
   },
