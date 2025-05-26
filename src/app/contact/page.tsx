@@ -42,10 +42,10 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="text-lg font-medium text-foreground">Call Us</h4>
-                <a href="tel:+1234567890" className="text-primary hover:underline">
-                  +1 (234) 567-890
+                <a href="tel:+916381595551" className="text-primary hover:underline">
+                  +91 6381595551
                 </a>
-                <p className="text-sm text-muted-foreground">Mon - Fri, 9am - 6pm (EST)</p>
+                <p className="text-sm text-muted-foreground">Mon - Fri, 9am - 6pm (IST)</p> {/* Assuming IST based on country code */}
               </div>
             </div>
             <div className="flex items-start space-x-4">
