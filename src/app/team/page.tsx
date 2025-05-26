@@ -1,3 +1,4 @@
+
 import { Section } from '@/components/Section';
 import { TeamMemberCard, type TeamMember } from '@/components/team/TeamMemberCard';
 import type { Metadata } from 'next';
@@ -50,6 +51,37 @@ const teamMembers: TeamMember[] = [
     bio: 'David is a versatile developer comfortable across the full stack. He enjoys tackling complex challenges and is always eager to learn new technologies to enhance our projects.',
     linkedinUrl: '#',
     githubUrl: '#',
+  },
+  {
+    id: '5',
+    name: 'Eva Williams',
+    role: 'Mobile App Developer',
+    imageUrl: 'https://placehold.co/200x200.png',
+    dataAiHint: 'woman mobile developer',
+    expertise: ['React Native', 'Flutter', 'iOS', 'Android', 'Firebase'],
+    bio: 'Eva specializes in creating cross-platform mobile applications that offer native performance and engaging user interfaces. She is passionate about mobile trends and user experience.',
+    linkedinUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    id: '6',
+    name: 'Frank Miller',
+    role: 'Project Manager',
+    imageUrl: 'https://placehold.co/200x200.png',
+    dataAiHint: 'man project manager',
+    expertise: ['Agile', 'Scrum', 'Client Communication', 'Risk Management'],
+    bio: 'Frank ensures projects are delivered on time and within budget. His excellent communication and organizational skills keep our teams aligned and clients informed.',
+    linkedinUrl: '#',
+  },
+  {
+    id: '7',
+    name: 'Grace Davis',
+    role: 'Marketing & Strategy Lead',
+    imageUrl: 'https://placehold.co/200x200.png',
+    dataAiHint: 'woman marketing professional',
+    expertise: ['Digital Marketing', 'SEO', 'Content Strategy', 'Brand Development'],
+    bio: 'Grace crafts compelling narratives and strategies that elevate our clients\' digital presence. She is adept at identifying market opportunities and driving growth.',
+    linkedinUrl: '#',
   },
 ];
 
