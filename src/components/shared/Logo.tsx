@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -5,20 +6,25 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center space-x-2 group">
       {/* 
-        Please ensure your logo image (e.g., logo.png) is in the 'public' folder.
-        If your logo file is named differently or is not a PNG, 
-        update the src, alt, width, and height attributes below accordingly.
+        Ensure your logo image (hyperzen-logo.jpg) is in the 'public' folder.
       */}
       <Image
-        src="/logo.png" // Replace with your logo's path if different, e.g., /my-logo.svg
+        src="/hyperzen-logo.jpg" // Using the new logo image
         alt="HyperZen Logo"
-        width={32} // Corresponds to h-8 w-8 (8 * 4px = 32px)
-        height={32}
-        className="group-hover:opacity-80 transition-opacity duration-300" // Example hover effect
+        width={120} // Adjusted width for the new logo, can be fine-tuned
+        height={40} // Adjusted height for the new logo, can be fine-tuned
+        className="group-hover:opacity-90 transition-opacity duration-300"
+        style={{ objectFit: 'contain' }} // Ensure the logo scales nicely
       />
+      {/* The text "HyperZen" is part of the image, so we can remove the span below if preferred,
+          or keep it if the image is just the "HZ" symbol.
+          For now, I'll assume the provided image is the complete logo including the "HYPERZEN" text.
+      */}
+      {/* 
       <span className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
         Hyper<span className="text-primary group-hover:text-accent transition-colors duration-300">Zen</span>
       </span>
+      */}
     </Link>
   );
 }
