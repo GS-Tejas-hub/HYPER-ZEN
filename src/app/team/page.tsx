@@ -55,11 +55,11 @@ const teamMembers: TeamMember[] = [
   {
     id: '5',
     name: 'PoliReddy Thrisha Reddy',
-    role: 'Mobile App Developer',
+    role: 'Game Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person mobile developer',
     expertise: ['React Native', 'Flutter', 'iOS', 'Android', 'Firebase'],
-    bio: 'PoliReddy specializes in creating cross-platform mobile applications that offer native performance and engaging user interfaces. PoliReddy is passionate about mobile trends and user experience.',
+    bio: 'Thrisha Reddy specializes in developing cross-platform games that deliver native-level performance, immersive gameplay, and captivating visual experiences',
     linkedinUrl: 'https://www.linkedin.com/in/thrisha-reddy-96958533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
