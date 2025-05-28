@@ -16,7 +16,7 @@ const teamMembers: TeamMember[] = [
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'man smiling professional', // Updated hint slightly for a male name
     expertise: ['React', 'Next.js', 'Node.js', 'System Architecture'],
-    bio: 'Manish is a seasoned web architect with over 10 years of experience building scalable and robust web applications. He leads our web development efforts with a passion for clean code and innovative solutions.', // Updated bio pronoun
+    bio: "Passionate UI/UX Designer with a focus on intuitive, user-centered design for games and digital products.\nBlending design and development to create seamless, engaging, and visually rich user experiences.", // Updated bio
     linkedinUrl: 'https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
