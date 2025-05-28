@@ -33,11 +33,11 @@ const teamMembers: TeamMember[] = [
   {
     id: '3',
     name: 'G S Tejas',
-    role: 'UX/UI Lead',
+    role: 'Full-Stack Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person designer thoughtful',
     expertise: ['User Research', 'Wireframing', 'Prototyping', 'Visual Design'],
-    bio: 'Tejas is dedicated to crafting intuitive and beautiful user experiences. He champions a user-centered design process to create products that are both functional and delightful.',
+    bio: 'Tejas is a versatile developer comfortable across the full stack. He enjoys tackling complex challenges and is always eager to learn new technologies, optimize performance, and deliver impactful solutions.',
     linkedinUrl: 'https://www.linkedin.com/in/g-s-tejas-10580929a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
@@ -91,7 +91,7 @@ const teamMembers: TeamMember[] = [
     dataAiHint: 'woman engineer futuristic',
     expertise: ['Python', 'TensorFlow', 'PyTorch', 'NLP', 'Computer Vision'],
     bio: 'Spurthika is passionate about leveraging artificial intelligence to solve complex problems. She develops innovative AI solutions and integrates machine learning models into our projects.',
-    linkedinUrl: 'https://www.linkedin.com/in/kummetha-spoorthika-218310326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    linkedinUrl: 'https://www.linkedin.com/in/kummetha-spurthika-218310326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
 ];
