@@ -86,11 +86,11 @@ const teamMembers: TeamMember[] = [
   {
     id: '8',
     name: 'Kummetha Spurthika',
-    role: 'AI/ML Engineer',
+    role: 'App Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'woman engineer futuristic',
     expertise: ['Python', 'TensorFlow', 'PyTorch', 'NLP', 'Computer Vision'],
-    bio: 'Spurthika is passionate about leveraging artificial intelligence to solve complex problems. She develops innovative AI solutions and integrates machine learning models into our projects.',
+    bio: "Skilled App Developer specializing in designing and building high-performance, scalable mobile applications with seamless user experiences.\nProficient in leveraging modern frameworks and best practices to deliver reliable, efficient, and intuitive solutions across iOS and Android platforms.",
     linkedinUrl: 'https://www.linkedin.com/in/kummetha-spurthika-218310326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
   },
