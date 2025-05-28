@@ -12,10 +12,10 @@ const teamMembers: TeamMember[] = [
   {
     id: '1',
     name: 'Manish R V',
-    role: 'Lead Web Developer',
+    role: 'UX/UI Lead and Game Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'man smiling professional', // Updated hint slightly for a male name
-    expertise: ['React', 'Next.js', 'Node.js', 'System Architecture'],
+    expertise: ['React', 'Next.js', 'Node.js', 'System Architecture'], // <-- Skills
     bio: "Passionate UI/UX Designer with a focus on intuitive, user-centered design for games and digital products.\nBlending design and development to create seamless, engaging, and visually rich user experiences.", // Updated bio
     linkedinUrl: 'https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
