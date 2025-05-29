@@ -1,6 +1,6 @@
 
 import { Logo } from '@/components/shared/Logo';
-import { Linkedin, Twitter } from 'lucide-react';
+import { Linkedin, Twitter, Instagram } from 'lucide-react'; // Added Instagram
 
 export function Footer() {
   return (
@@ -29,6 +29,15 @@ export function Footer() {
               </a>
               <a href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter className="h-6 w-6" />
+              </a>
+              <a 
+                href="https://www.instagram.com/hyperzen.dev_official?utm_source=qr&igsh=MTNvNG05d2EzMXU1cw==" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Instagram" 
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Instagram className="h-6 w-6" />
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
