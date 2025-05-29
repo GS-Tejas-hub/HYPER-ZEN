@@ -1,6 +1,6 @@
 
 import { Logo } from '@/components/shared/Logo';
-import { Linkedin, Twitter, Instagram } from 'lucide-react'; // Added Instagram
+import { Twitter, Instagram } from 'lucide-react'; // Removed Linkedin
 
 export function Footer() {
   return (
@@ -24,9 +24,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin className="h-6 w-6" />
-              </a>
+              {/* LinkedIn icon and link removed */}
               <a href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
