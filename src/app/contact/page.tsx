@@ -1,7 +1,7 @@
 
 import { Section } from '@/components/Section';
 import { ContactForm } from '@/components/contact/ContactForm';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react'; // Added Instagram
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -61,6 +61,25 @@ export default function ContactPage() {
                 <p className="text-sm text-muted-foreground">Meetings by appointment only.</p>
               </div>
             </div>
+            {/* Added Instagram Link Start */}
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center">
+                <Instagram className="w-5 h-5" />
+              </div>
+              <div>
+                <h4 className="text-lg font-medium text-foreground">Follow Us on Instagram</h4>
+                <a 
+                  href="https://www.instagram.com/hyperzen.dev_official?utm_source=qr&igsh=MTNvNG05d2EzMXU1cw==" 
+                  className="text-primary hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @hyperzen.dev_official
+                </a>
+                <p className="text-sm text-muted-foreground">Stay updated with our latest news and projects.</p>
+              </div>
+            </div>
+            {/* Added Instagram Link End */}
           </div>
            <div className="mt-8 pt-6 border-t border-border">
             <h4 className="text-lg font-medium text-foreground mb-3">Project Inquiries</h4>
@@ -73,4 +92,3 @@ export default function ContactPage() {
     </Section>
   );
 }
-
