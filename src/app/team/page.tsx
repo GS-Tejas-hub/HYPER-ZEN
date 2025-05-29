@@ -79,7 +79,7 @@ const teamMembers: TeamMember[] = [
     role: 'Marketing & Strategy Lead',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person marketing professional',
-    expertise: ['Digital Marketing', 'SEO', 'Content Strategy', 'Brand Development'],
+    expertise: ['Digital Marketing', 'SEO', 'Content Strategy', 'Brand Development', 'Editing'],
     bio: 'Deeraj crafts compelling narratives and strategies that elevate our clients\' digital presence. He is adept at identifying market opportunities and driving growth.',
     linkedinUrl: 'https://www.linkedin.com/in/kanduri-hari-hara-deeraj-b795a6312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
@@ -110,3 +110,4 @@ export default function TeamPage() {
     </Section>
   );
 }
+
