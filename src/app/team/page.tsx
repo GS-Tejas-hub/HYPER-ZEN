@@ -75,7 +75,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: '5', // Original ID for PoliReddy Thrisha Reddy
-    name: 'PoliReddy Thrisha Reddy',
+    name: 'Polireddy Thrisha Reddy',
     role: 'Game Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person mobile developer',
