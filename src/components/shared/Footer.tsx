@@ -1,6 +1,6 @@
 
 import { Logo } from '@/components/shared/Logo';
-import { Twitter, Instagram } from 'lucide-react'; // Removed Linkedin
+import { Instagram, Phone } from 'lucide-react'; // Removed Twitter, Added Phone
 
 export function Footer() {
   return (
@@ -24,10 +24,6 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              {/* LinkedIn icon and link removed */}
-              <a href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-6 w-6" />
-              </a>
               <a 
                 href="https://www.instagram.com/hyperzen.dev_official?utm_source=qr&igsh=MTNvNG05d2EzMXU1cw==" 
                 target="_blank" 
@@ -37,9 +33,19 @@ export function Footer() {
               >
                 <Instagram className="h-6 w-6" />
               </a>
+              <a 
+                href="tel:6381595551" 
+                aria-label="Call us" 
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Phone className="h-6 w-6" />
+              </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
               hyperzen360@gmail.com
+            </p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              +91 6381595551
             </p>
           </div>
         </div>
