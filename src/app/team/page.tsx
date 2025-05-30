@@ -79,7 +79,7 @@ const teamMembers: TeamMember[] = [
     role: 'Game Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person mobile developer',
-    expertise: ['React Native', 'Flutter', 'iOS', 'Android', 'Firebase'],
+    expertise: ['Unity', 'C#', 'Game Design', 'C lang', 'Python'],
     bio: 'Thrisha Reddy specializes in developing cross-platform games that deliver native-level performance, immersive gameplay, and captivating visual experiences',
     linkedinUrl: 'https://www.linkedin.com/in/thrisha-reddy-96958533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
