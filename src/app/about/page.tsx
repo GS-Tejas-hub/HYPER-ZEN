@@ -33,7 +33,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/our-journey-image.jpg" 
+              src="https://placehold.co/500x500.png" 
               alt="HyperZen team collaborating around a large monitor displaying a project dashboard"
               data-ai-hint="team meeting project"
               fill
