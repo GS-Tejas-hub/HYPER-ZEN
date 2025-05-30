@@ -34,7 +34,7 @@ const teamMembers: TeamMember[] = [
   {
     id: '3', // Original ID for G S Tejas
     name: 'G S Tejas',
-    role: 'Full-Stack Developer',
+    role: 'Senior Full-Stack Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'person designer thoughtful',
     expertise: ['Java Script', 'React JS', 'Node JS', 'MongoDB', 'UI/UX', 'Python'],
@@ -45,10 +45,10 @@ const teamMembers: TeamMember[] = [
   {
     id: '2', // Original ID for Balasubramanyam B S
     name: 'Balasubramanyam B S',
-    role: 'Senior Game Designer',
+    role: 'Senior App Developer',
     imageUrl: 'https://placehold.co/200x200.png',
     dataAiHint: 'man creative glasses',
-    expertise: ['Java Script', 'React JS', 'Node JS', 'Java'],
+    expertise: ['Java Script', 'React JS', 'Node JS', 'Java', 'React Native', 'Firebase'],
     bio: 'Balasubramanyam brings virtual worlds to life. With a knack for engaging gameplay and immersive storytelling, he spearheads our game design projects, ensuring every game is an adventure.',
     linkedinUrl: 'https://www.linkedin.com/in/balasubramanyam-bs-7325a02ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
