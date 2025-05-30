@@ -1,6 +1,6 @@
 
 import { Logo } from '@/components/shared/Logo';
-import { Instagram, Phone } from 'lucide-react'; // Removed Twitter, Added Phone
+import { Instagram, Phone, Mail } from 'lucide-react'; // Added Mail icon
 
 export function Footer() {
   return (
@@ -39,6 +39,13 @@ export function Footer() {
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="h-6 w-6" />
+              </a>
+              <a
+                href="mailto:hyperzen360@gmail.com"
+                aria-label="Email us"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Mail className="h-6 w-6" />
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
