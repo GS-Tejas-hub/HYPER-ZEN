@@ -24,18 +24,18 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a 
-                href="https://www.instagram.com/hyperzen.dev_official?utm_source=qr&igsh=MTNvNG05d2EzMXU1cw==" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                aria-label="Instagram" 
+              <a
+                href="https://www.instagram.com/hyperzen.dev_official?utm_source=qr&igsh=MTNvNG05d2EzMXU1cw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Instagram className="h-6 w-6" />
               </a>
-              <a 
-                href="tel:6381595551" 
-                aria-label="Call us" 
+              <a
+                href="tel:+916381595551" 
+                aria-label="Call us"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="h-6 w-6" />
