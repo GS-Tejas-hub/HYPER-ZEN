@@ -69,7 +69,7 @@ export default function HomePage() {
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="https://placehold.co/800x600.png"
+              src="/images/homepageimage(1).png"
               alt="Digital innovation showcase"
               data-ai-hint="abstract technology"
               fill

@@ -10,7 +10,7 @@ export function Logo() {
         Adjust src, alt, width, and height attributes as needed.
       */}
       <Image
-        src="/logo.png" // Defaulting to logo.png, ensure this file exists in /public
+        src="/images/hyperzenLogo.jpg" // Defaulting to logo.png, ensure this file exists in /public
         alt="HyperZen Logo"
         width={40} // Example width, adjust to your logo's aspect ratio
         height={40} // Example height, adjust to your logo's aspect ratio
