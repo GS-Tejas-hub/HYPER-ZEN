@@ -15,7 +15,7 @@ const teamMembers: TeamMember[] = [
     role: 'UX/UI Lead and Game Developer',
     imageUrl: '/images/Manish1.jpg',
     dataAiHint: 'man smiling professional',
-    expertise: ['Python', 'C lang', 'Flutter Dart', 'Unity', 'Prototyping', 'UI/UX in Figma'],
+    expertise: ['Python', 'C lang', 'Flutter Dart','React Native', 'Android Studio', 'Game Design', 'Unity','Content Creator', 'Prototyping', 'UI/UX in Figma'],
     bio: "Passionate UI/UX Designer with a focus on intuitive, user-centered design for games and digital products.\nBlending design and development to create seamless, engaging, and visually rich user experiences.",
     linkedinUrl: 'https://www.linkedin.com/in/manish-r-v-676178326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     githubUrl: '#',
