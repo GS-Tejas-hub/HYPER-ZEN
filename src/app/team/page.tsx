@@ -85,7 +85,7 @@ const teamMembers: TeamMember[] = [
     id: '8', // Original ID for Kummetha Spurthika
     name: 'Kummetha Spurthika',
     role: 'App Developer',
-    imageUrl: '/images/spurthika.jpg',
+    imageUrl: '/images/spurthika.jpeg',
     dataAiHint: 'woman engineer futuristic',
     expertise: ['React Native', 'Flutter', 'iOS', 'Android', 'Firebase'],
     bio: "Skilled App Developer specializing in designing and building high-performance, scalable mobile applications with seamless user experiences.\nProficient in leveraging modern frameworks and best practices to deliver reliable, efficient, and intuitive solutions across iOS and Android platforms.",
